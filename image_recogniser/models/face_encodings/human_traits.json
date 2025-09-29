@@ -1,0 +1,74 @@
+{
+  "age_groups": [
+    "child",
+    "young_adult",
+    "middle_aged",
+    "elderly"
+  ],
+  "genders": [
+    "male",
+    "female"
+  ],
+  "ethnicities": [
+    "asian",
+    "caucasian",
+    "african",
+    "hispanic",
+    "mixed"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "sad",
+    "angry",
+    "surprised"
+  ],
+  "face_shapes": [
+    "oval",
+    "round",
+    "square",
+    "heart",
+    "diamond"
+  ],
+  "eye_colors": [
+    "brown",
+    "blue",
+    "green",
+    "hazel",
+    "gray"
+  ],
+  "hair_colors": [
+    "black",
+    "brown",
+    "blonde",
+    "red",
+    "gray",
+    "white"
+  ],
+  "facial_features": {
+    "beard": [
+      "none",
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "mustache": [
+      "none",
+      "light",
+      "medium",
+      "heavy"
+    ],
+    "glasses": [
+      "none",
+      "reading",
+      "sunglasses",
+      "prescription"
+    ],
+    "hat": [
+      "none",
+      "cap",
+      "hat",
+      "helmet"
+    ]
+  }
+}

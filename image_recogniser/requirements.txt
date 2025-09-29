@@ -1,0 +1,137 @@
+# ===========================================
+# 🚀 ULTRA ADVANCED IMAGE RECOGNITION SYSTEM
+# ===========================================
+
+# Core ML Libraries - Compatible versions for Windows
+tensorflow-cpu==2.13.0
+torch==2.0.1
+torchvision==0.15.2
+transformers==4.30.2
+
+# ===========================================
+# 🤖 HUGGING FACE TRANSFORMERS & AI MODELS
+# ===========================================
+
+# Hugging Face Transformers Dependencies
+tokenizers==0.13.3
+accelerate==0.20.3
+datasets==2.12.0
+safetensors==0.3.1
+huggingface-hub==0.15.1
+
+# Better Free Models Support (Llama, Mistral, Phi, Gemma)
+bitsandbytes==0.41.0  # For model quantization
+peft==0.4.0  # For parameter efficient fine-tuning
+sentencepiece==0.1.99
+protobuf==4.25.3  # Updated for MediaPipe compatibility
+typing-extensions>=3.6.3,<4.6.0  # Fixed for TensorFlow compatibility
+
+# ===========================================
+# 🎯 ULTRA ADVANCED OBJECT DETECTION MODELS
+# ===========================================
+
+# YOLOv11/YOLOv8 (Latest and Most Accurate)
+ultralytics==8.0.196  # YOLOv8/YOLOv11 support
+
+# DETR (Detection Transformer) Models
+# transformers==4.30.2  # Already included above
+
+# EfficientDet and Advanced Models
+timm==0.9.12  # EfficientDet and other advanced models
+
+# Computer Vision Core
+opencv-python==4.8.0.74
+opencv-contrib-python==4.8.0.74
+pillow==10.0.0
+
+# ===========================================
+# 👤 ADVANCED FACE RECOGNITION
+# ===========================================
+
+# MediaPipe (State-of-the-art face detection)
+mediapipe==0.10.7
+
+# Advanced Face Recognition (install separately due to Windows issues)
+# dlib==19.24.2  # Commented out due to cmake dependency issues
+# face-recognition==1.3.0  # Install manually due to Windows issues
+
+# ===========================================
+# 📊 DATA PROCESSING & ANALYSIS
+# ===========================================
+
+# Core Data Processing
+numpy==1.26.4  # Updated for better compatibility
+pandas==2.0.3
+matplotlib==3.7.2
+scikit-learn==1.3.0
+
+# ===========================================
+# 🌐 API & WEB SERVICES
+# ===========================================
+
+# FastAPI for web services
+fastapi==0.100.0
+uvicorn==0.22.0
+requests==2.31.0
+
+# ===========================================
+# 🛠️ UTILITIES & TOOLS
+# ===========================================
+
+# Progress bars and utilities
+tqdm==4.65.0
+
+# Additional ML utilities
+scipy==1.11.1
+seaborn==0.12.2
+
+# ===========================================
+# 🎥 LIVE CAMERA & REAL-TIME PROCESSING
+# ===========================================
+
+# Real-time processing
+threading  # Built-in Python module
+queue  # Built-in Python module
+
+# ===========================================
+# 📱 GUI & INTERFACE
+# ===========================================
+
+# Tkinter (built-in with Python)
+# PIL (Pillow) - already included above
+
+# ===========================================
+# 🔧 DEVELOPMENT & DEBUGGING
+# ===========================================
+
+# Development tools
+jupyter==1.0.0
+ipython==8.14.0
+
+# ===========================================
+# 📝 NOTES & INSTALLATION INSTRUCTIONS
+# ===========================================
+
+# Installation Order:
+# 1. Install basic dependencies: pip install -r requirements.txt
+# 2. Install advanced models: install_advanced_models.bat
+# 3. Install Hugging Face models: install_hf_models.bat
+# 4. Install face recognition manually: pip install face-recognition (if needed)
+
+# Model Download Notes:
+# - YOLOv11/YOLOv8 models download automatically on first use
+# - DETR models download from Hugging Face on first use
+# - EfficientDet models download from timm on first use
+# - Total download size: ~2-5GB for all models
+
+# Performance Notes:
+# - YOLOv11x: Highest accuracy, requires 4-8GB RAM
+# - YOLOv8x: High accuracy, requires 2-4GB RAM
+# - DETR: Transformer-based, requires 2-4GB RAM
+# - EfficientDet: Efficient, requires 1-2GB RAM
+
+# Compatibility:
+# - Windows 10/11 compatible
+# - Python 3.8+ required
+# - CUDA support available (optional)
+# - CPU-only mode supported

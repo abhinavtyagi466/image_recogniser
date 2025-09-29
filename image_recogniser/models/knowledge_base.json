@@ -1,0 +1,65 @@
+{
+  "laptop": {
+    "type": "product",
+    "appearances": 5,
+    "contexts": []
+  },
+  "vase": {
+    "type": "product",
+    "appearances": 2,
+    "contexts": []
+  },
+  "potted plant": {
+    "type": "product",
+    "appearances": 3,
+    "contexts": []
+  },
+  "remote": {
+    "type": "product",
+    "appearances": 3,
+    "contexts": []
+  },
+  "chair": {
+    "type": "product",
+    "appearances": 19,
+    "contexts": []
+  },
+  "person": {
+    "type": "product",
+    "appearances": 6,
+    "contexts": []
+  },
+  "bhains": {
+    "type": "person",
+    "appearances": 2,
+    "contexts": []
+  },
+  "conversation_patterns": {
+    "questions": [
+      "what"
+    ],
+    "requests": [],
+    "responses": {
+      "positive": [],
+      "negative": [],
+      "helpful": []
+    },
+    "positive_responses": [
+      "Hey there! How can I help you today? It's great to"
+    ]
+  },
+  "object_patterns": {
+    "electronics": {
+      "laptop": {
+        "appearances": 3,
+        "contexts": [],
+        "confidence_history": [
+          0.9,
+          0.9,
+          0.9
+        ],
+        "last_seen": "2025-09-29T15:20:03.760600"
+      }
+    }
+  }
+}
